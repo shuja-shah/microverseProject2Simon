@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
 </head>
+
 <body>
     <h1 id="title">microVerse Survey Form</h1>
     <p id="description">Please fill out the form as detailed as possible</p>
     <form id="survey-form">
-        <label for=""id = "name-label">Name</label>
-        <input type="text" name="Name" id="name" placeholder="Enter Your Full Name">        
+        <label for="" id="name-label">Name</label>
+        <input type="text" name="Name" id="name" placeholder="Enter Your Full Name">
         <label for="" id="email-label">Email</label>
         <input type="email" name="Email Addreass" id="email" placeholder="Enter Your Email">
-        <label for=""id="number-label">Age</label>
+        <label for="" id="number-label">Age</label>
         <input type="number" name="Age" id="age" min=" 18" max="25" placeholder="Enter Your Age">
-        
-        
+        <label for="">Choose your favourite language</label>
+        <select id="dropdown" name="dropdown">
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+        </select>
+
+
 
     </form>
 </body>
+
 </html>
