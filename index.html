@@ -14,24 +14,29 @@
     <h1 id="title">microVerse Survey Form</h1>
     <p id="description">Please fill out the form as detailed as possible</p>
     <div class="center"><form id="survey-form">
-        <label for="" id="name-label">Name</label>
+       <div id="nam"> <label for="" id="name-label">Name</label>
         <input type="text" name="Name" id="name" placeholder="Enter Your Full Name">
+       </div><div id="adreas">
         <label for="" id="email-label">Email</label>
         <input type="email" name="Email Addreass" id="email" placeholder="Enter Your Email">
+        </div><div id="phone">
         <label for="" id="number-label">Age</label>
         <input type="number" name="Age" id="age" min=" 18" max="25" placeholder="Enter Your Age">
+        </div>
+        <div id="select">
         <label for="">Choose your favourite language</label>
         <select id="dropdown" name="dropdown">
             <option value="Javascript">Javascript</option>
             <option value="HTML">HTML</option>
             <option value="CSS">CSS</option>
-        </select>
+        </select></div><div id="radio">
         <label>Any Other Languge</label>
         <input type="radio" name="Any Other Languge">
         <label>Not A Softwere</label>
         <input type="radio" name="Not A Softwere">
         <label>Meow</label>
-        <input type="radio" name="Meow">
+        <input type="radio" name="Meow"></div>
+        <div id="check">
         <label>I've Certified</label>
         <input type="checkbox" name="I've Certified">
         <label>NoNoNo</label>
@@ -39,8 +44,10 @@
         <label>Simon Gideon</label>
         <input type="checkbox" name="Simon Gideon">
         <label>Shuja Shah</label>
-        <input type="checkbox" name="Shuja Shah">
-        <input type="text" name="Enter Your Comment" id="Comment" placeholder="Enter Your Comment">
+        <input type="checkbox" name="Shuja Shah"></div>
+        <div id="Camment">
+        <textarea name="Comment" id="comment" cols="30" rows="7">Enter Your Comment Here...</textarea>
+        </div>
         <input type="button" value="Submit" id="Button">
         </form></div>
 </body>
